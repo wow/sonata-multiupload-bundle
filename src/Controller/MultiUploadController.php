@@ -3,7 +3,7 @@
 namespace Wow\Sonata\MultiUploadBundle\Controller;
 
 use Wow\Sonata\MultiUploadBundle\Form\MultiUploadType;
-use Sonata\Doctrine\Model\ManagerInterface;
+use Sonata\MediaBundle\Entity\MediaManager;
 use Sonata\MediaBundle\Controller\MediaAdminController;
 use Sonata\MediaBundle\Model\MediaInterface;
 use Sonata\MediaBundle\Provider\MediaProviderInterface;
