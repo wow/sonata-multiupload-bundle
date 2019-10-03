@@ -17,11 +17,11 @@ use Symfony\Component\HttpFoundation\Request;
 class MultiUploadController extends MediaAdminController
 {
     /**
-     * @var ManagerInterface
+     * @var MediaManager
      */
     private $mediaManager;
 
-    public function __construct(ManagerInterface $mediaManager)
+    public function __construct(MediaManager $mediaManager)
     {
         $this->mediaManager = $mediaManager;
     }
