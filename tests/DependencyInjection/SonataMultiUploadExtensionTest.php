@@ -1,11 +1,11 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\DependencyInjection;
+namespace Wow\Sonata\MultiUploadBundle\Tests\DependencyInjection;
 
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\Admin\MultiUploadAdminExtension;
-use SilasJoisten\Sonata\MultiUploadBundle\Controller\MultiUploadController;
-use SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\SonataMultiUploadExtension;
+use Wow\Sonata\MultiUploadBundle\Admin\MultiUploadAdminExtension;
+use Wow\Sonata\MultiUploadBundle\Controller\MultiUploadController;
+use Wow\Sonata\MultiUploadBundle\DependencyInjection\SonataMultiUploadExtension;
 
 class SonataMultiUploadExtensionTest extends AbstractExtensionTestCase
 {

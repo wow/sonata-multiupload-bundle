@@ -1,9 +1,9 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\Traits;
+namespace Wow\Sonata\MultiUploadBundle\Tests\Traits;
 
 use PHPUnit\Framework\TestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\Traits\MultiUploadTrait;
+use Wow\Sonata\MultiUploadBundle\Traits\MultiUploadTrait;
 
 class MultiUploadTraitTest extends TestCase
 {

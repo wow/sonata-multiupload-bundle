@@ -1,6 +1,6 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Traits;
+namespace Wow\Sonata\MultiUploadBundle\Traits;
 
 trait MultiUploadTrait
 {

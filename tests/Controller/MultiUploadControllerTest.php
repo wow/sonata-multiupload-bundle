@@ -1,9 +1,9 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\Controller;
+namespace Wow\Sonata\MultiUploadBundle\Tests\Controller;
 
 use PHPUnit\Framework\TestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\Controller\MultiUploadController;
+use Wow\Sonata\MultiUploadBundle\Controller\MultiUploadController;
 use Sonata\Doctrine\Model\ManagerInterface;
 
 class MultiUploadControllerTest extends TestCase

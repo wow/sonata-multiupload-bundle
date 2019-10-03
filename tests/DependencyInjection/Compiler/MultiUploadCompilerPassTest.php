@@ -1,9 +1,9 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\DependencyInjection\Compiler;
+namespace Wow\Sonata\MultiUploadBundle\Tests\DependencyInjection\Compiler;
 
 use PHPUnit\Framework\TestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\Compiler\MultiUploadCompilerPass;
+use Wow\Sonata\MultiUploadBundle\DependencyInjection\Compiler\MultiUploadCompilerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 

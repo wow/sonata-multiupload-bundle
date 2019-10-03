@@ -1,18 +1,18 @@
-silasjoisten/sonata-multiupload-bundle
+wow/sonata-multiupload-bundle
 ======================================
-[![Build Status](https://travis-ci.org/silasjoisten/sonata-multiupload-bundle.svg?branch=master)](https://travis-ci.org/silasjoisten/sonata-multiupload-bundle)
-[![Latest Stable Version](https://poser.pugx.org/silasjoisten/sonata-multiupload-bundle/v/stable)](https://packagist.org/packages/silasjoisten/sonata-multiupload-bundle)
-[![Total Downloads](https://poser.pugx.org/silasjoisten/sonata-multiupload-bundle/downloads)](https://packagist.org/packages/silasjoisten/sonata-multiupload-bundle)
-[![Latest Unstable Version](https://poser.pugx.org/silasjoisten/sonata-multiupload-bundle/v/unstable)](https://packagist.org/packages/silasjoisten/sonata-multiupload-bundle)
-[![License](https://poser.pugx.org/silasjoisten/sonata-multiupload-bundle/license)](https://packagist.org/packages/silasjoisten/sonata-multiupload-bundle)
-[![codecov](https://codecov.io/gh/silasjoisten/sonata-multiupload-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/silasjoisten/sonata-multiupload-bundle)
+[![Build Status](https://travis-ci.org/wow/sonata-multiupload-bundle.svg?branch=master)](https://travis-ci.org/wow/sonata-multiupload-bundle)
+[![Latest Stable Version](https://poser.pugx.org/wow/sonata-multiupload-bundle/v/stable)](https://packagist.org/packages/wow/sonata-multiupload-bundle)
+[![Total Downloads](https://poser.pugx.org/wow/sonata-multiupload-bundle/downloads)](https://packagist.org/packages/wow/sonata-multiupload-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/wow/sonata-multiupload-bundle/v/unstable)](https://packagist.org/packages/wow/sonata-multiupload-bundle)
+[![License](https://poser.pugx.org/wow/sonata-multiupload-bundle/license)](https://packagist.org/packages/wow/sonata-multiupload-bundle)
+[![codecov](https://codecov.io/gh/wow/sonata-multiupload-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/wow/sonata-multiupload-bundle)
 
 ## Installation
 
 ### Step 1: Download the Bundle
 
 ```console
-composer require silasjoisten/sonata-multiupload-bundle
+composer require wow/sonata-multiupload-bundle
 ```
 
 ### Step 2: Enable the Bundle
@@ -29,7 +29,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             // ...
-            new SilasJoisten\Sonata\MultiUploadBundle\SonataMultiUploadBundle(),
+            new Wow\Sonata\MultiUploadBundle\SonataMultiUploadBundle(),
         );
 
         // ...
@@ -45,7 +45,7 @@ If you are using flex register bundle in `config/bundles.php`:
 
 return [
     //...
-    SilasJoisten\Sonata\MultiUploadBundle\SonataMultiUploadBundle::class => ['all' => true]
+    Wow\Sonata\MultiUploadBundle\SonataMultiUploadBundle::class => ['all' => true]
 ];
 ```
 
@@ -57,7 +57,7 @@ First you need to override the default `MediaAdminController.php` via:
 # config/services.yaml
 
 parameters:
-    sonata.media.admin.media.controller: SilasJoisten\Sonata\MultiUploadBundle\Controller\MultiUploadController
+    sonata.media.admin.media.controller: Wow\Sonata\MultiUploadBundle\Controller\MultiUploadController
 
 services:
     # ...
@@ -97,7 +97,7 @@ App\Provider\VideoProvider:
 ```
 
 In your provider where you want to use multiupload you need to add the
-`SilasJoisten\Sonata\MultiUploadBundle\Traits\MultiUploadTrait` trait.
+`Wow\Sonata\MultiUploadBundle\Traits\MultiUploadTrait` trait.
 If you dont know how to use them take a look at 
 [PHP trait definintion](http://php.net/manual/en/language.oop5.traits.php)
 
@@ -105,7 +105,7 @@ In the following you see how to use the `MultiUploadTrait`:
 ```php
 namespace App\Provider;
 
-use SilasJoisten\Sonata\MultiUploadBundle\Traits\MultiUploadTrait;
+use Wow\Sonata\MultiUploadBundle\Traits\MultiUploadTrait;
 
 final class VideoProvider extends FileProvider
 {
@@ -158,7 +158,7 @@ In your `MediaAdminController.php`:
 namespace App\Controller;
 
 use App\Application\Sonata\MediaBundle\Admin\GalleryAdmin;
-use SilasJoisten\Sonata\MultiUploadBundle\Controller\MultiUploadController;
+use Wow\Sonata\MultiUploadBundle\Controller\MultiUploadController;
 use Sonata\MediaBundle\Entity\MediaManager;
 use Sonata\MediaBundle\Entity\GalleryManager;
 

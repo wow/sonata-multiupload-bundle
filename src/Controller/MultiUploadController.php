@@ -1,8 +1,8 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Controller;
+namespace Wow\Sonata\MultiUploadBundle\Controller;
 
-use SilasJoisten\Sonata\MultiUploadBundle\Form\MultiUploadType;
+use Wow\Sonata\MultiUploadBundle\Form\MultiUploadType;
 use Sonata\Doctrine\Model\ManagerInterface;
 use Sonata\MediaBundle\Controller\MediaAdminController;
 use Sonata\MediaBundle\Model\MediaInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Admin;
+namespace Wow\Sonata\MultiUploadBundle\Admin;
 
 use Sonata\AdminBundle\Admin\AbstractAdminExtension;
 use Sonata\AdminBundle\Admin\AdminInterface;

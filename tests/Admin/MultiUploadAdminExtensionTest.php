@@ -1,9 +1,9 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\Admin;
+namespace Wow\Sonata\MultiUploadBundle\Tests\Admin;
 
 use PHPUnit\Framework\TestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\Admin\MultiUploadAdminExtension;
+use Wow\Sonata\MultiUploadBundle\Admin\MultiUploadAdminExtension;
 use Sonata\AdminBundle\Admin\AdminInterface;
 use Sonata\AdminBundle\Route\RouteCollection;
 

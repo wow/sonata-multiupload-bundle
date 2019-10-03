@@ -1,6 +1,6 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection;
+namespace Wow\Sonata\MultiUploadBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

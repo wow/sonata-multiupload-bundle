@@ -39,4 +39,4 @@ after_success:
   - bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN
 
 notifications:
-  email: silasjoisten@gmail.com
+  email: ilhamdeneri@gmail.com

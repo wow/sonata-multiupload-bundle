@@ -1,6 +1,6 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\Compiler;
+namespace Wow\Sonata\MultiUploadBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
